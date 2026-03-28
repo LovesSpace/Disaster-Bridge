@@ -8,7 +8,7 @@ const rateLimit = require('express-rate-limit');
 const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 8080;
 
 // Middlewares
 app.use(cors());
@@ -20,7 +20,7 @@ app.use(express.static(clientDistPath));
 
 // Rate limiting: 10 requests per user per minute
 const limiter = rateLimit({
-  windowMs: 60 * 1000, 
+  windowMs: 60 * 1000,
   max: 10,
   message: { error: 'Please wait before submitting again.' }
 });
