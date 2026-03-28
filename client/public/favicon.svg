@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Red shield background -->
+  <path d="M16 2L4 7V17C4 23.6 9.4 29.6 16 31C22.6 29.6 28 23.6 28 17V7L16 2Z" fill="#D94F4F"/>
+  <!-- Darker shield border -->
+  <path d="M16 2L4 7V17C4 23.6 9.4 29.6 16 31C22.6 29.6 28 23.6 28 17V7L16 2Z" stroke="#991B1B" stroke-width="1"/>
+  <!-- White cross / alert symbol -->
+  <rect x="14" y="9" width="4" height="10" rx="1.5" fill="white"/>
+  <rect x="11" y="12" width="10" height="4" rx="1.5" fill="white"/>
+  <!-- Small dot below cross -->
+  <circle cx="16" cy="24" r="1.5" fill="white"/>
+</svg>

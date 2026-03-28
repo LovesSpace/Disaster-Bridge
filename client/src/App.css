@@ -1,0 +1,12 @@
+/* App specific styles integrated in index.css */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.visual-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
